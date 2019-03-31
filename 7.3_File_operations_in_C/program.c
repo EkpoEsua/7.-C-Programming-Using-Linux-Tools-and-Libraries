@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
 		printf("%02d plants for %.2lf dollars each cost %.2lf dollars.", num, price, num*price);
 		
 	}
-	else printf("Invalid input.");
+	else printf("Invalid input, duh!.");
 	
 	return 0;
 }
