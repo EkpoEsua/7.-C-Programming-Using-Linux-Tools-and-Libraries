@@ -11,7 +11,7 @@ int main(){
 
     fscanf(file, "%lf", &myStudents);
 
-    while ((fscanf(file, "%lf", &otherStudents) != EOF) && best){
+    while ((fscanf(file, "%lf", &otherStudents) != EOF)){
         count += 1;
         if (myStudents < otherStudents) best = 0;
     }
