@@ -19,6 +19,7 @@ int main(){
     if (best) printf("Yes");
     else printf("No %d", count);
 
+    fclose(file);
 
     return 0;
 }
