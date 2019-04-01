@@ -15,6 +15,8 @@ int main(){
     }
     
     printf("%.2lf", total/N);
+
+    fclose(ifile);
     
     return 0;
 }
