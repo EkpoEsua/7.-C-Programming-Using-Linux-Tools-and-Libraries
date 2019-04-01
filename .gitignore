@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
 *.mp4
+*.ts
 
 # Object files
 *.o
